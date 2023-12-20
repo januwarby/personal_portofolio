@@ -619,7 +619,7 @@
           <h3 class="h3 form-title">Contact Form</h3>
 
           <form action="#" class="form" data-form
-            style="display: flex; flex-direction: column; align-items: flex-start;">
+            style="display: flex; flex-direction: column; align-items: flex-start;" name="data-form">
 
             <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input
               style="width: 100%; margin-bottom: 10px;">
@@ -664,7 +664,7 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbwDuseg_SoQfsgff5DzEH9GENBNMHTBHwz2X2xhbuzo7s3ozLqupzvHNTrIRj4FWmrHGA/exec'
-    const form = document.forms['form-contact']
+    const form = document.forms['data-form']
 
     form.addEventListener('submit', e => {
       e.preventDefault()
